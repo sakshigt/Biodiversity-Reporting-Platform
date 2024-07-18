@@ -1,0 +1,47 @@
+.bio-diversity-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.bio-diversity-container .content-box {
+  width: 45%; /* Adjust width to leave space for the questionnaire box */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  animation: conveyorBelt 8s linear infinite;
+  padding-top: 2px;
+  
+}
+
+@keyframes conveyorBelt {
+  0% {
+    transform: translateY(5);
+  }
+  50% {
+    transform: translateY(-50%);
+  }
+  100% {
+    transform: translateY(100);
+  }
+}
+
+.bio-diversity-container .questionnaire-box {
+  width: 45%; /* Adjust width to leave space for the content box */
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-left: 1px solid #ddd;
+}
+
+.bio-diversity-container .species-box {
+  background-color: #f7f7fa;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.bio-diversity-container .species-image {
+  width: 250px;
+  height: 100px;
+}

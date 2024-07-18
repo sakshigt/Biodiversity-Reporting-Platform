@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+  background: url('bio2.jpg');
+  background-repeat:repeat;
+  background-position: center top;
+  background-size: cover;
+  background-blend-mode: lighten;
+  opacity: 90%;
+
+  
+}
+/* Add some general styles for a cleaner look */
+.body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+/* Style the navbar for a more modern look */
+.navbar {
+  padding: .05rem 1.5rem;
+  background-color: #e4da44;
+  box-shadow: 0 2px 5px rgba(155, 238, 116, 0.1);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #333;
+}
+
+.nav-link {
+  color: #333;
+  margin-left: 1rem;
+}
+
+/* Center the content within the "auth-wrapper" */
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding-top: 4%;
+
+
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #ece744;
+  padding: 7.5px 0;
+  text-align: center;
+  box-shadow: 0 -2px 5px rgba(155, 238, 116, 0.1);
+}
+
+.footer p {
+  margin: 0;
+}

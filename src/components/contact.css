@@ -1,0 +1,36 @@
+.combined-contact-box {
+    display: flex;
+    justify-content: space-around; /* Adjust alignment as needed */
+}
+
+.contact-details {
+    width: 25%; /* Adjust width of each contact box */
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 9px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+.contact-photo {
+    width: 55%;
+    height: auto;
+}
+
+.contact-photo img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.contact-details h2 {
+    margin-top: 0;
+}
+
+.contact-details p {
+    margin: 5px 0;
+    padding: 0 10px;
+}

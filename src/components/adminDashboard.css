@@ -1,0 +1,49 @@
+.admin-dashboard {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.report-container {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.report-table {
+    width: max-content;
+    min-width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.report-table th, .report-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.report-table th {
+    background-color: #f0f0f0;
+    color: #333; /* Dark text color */
+}
+
+.report-table td {
+    background-color: #f9f9f9;
+    color: #333; /* Dark text color */
+}
+
+.report-table tr:nth-child(even) {
+    background-color: #f0f0f0;
+    
+}
+
+.report-table tr:hover {
+    background-color: #e0e0e0;
+}
+
+.report-heading {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #fff152; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
